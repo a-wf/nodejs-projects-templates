@@ -16,6 +16,7 @@
         "express": "4.17.1",
         "express-openapi-validator": "3.6.6",
         "express-prom-bundle": "5.1.5",
+        "joi": "14.3.1",
         "js-yaml": "3.13.1",
         "prom-client": "11.5.3",
         "swagger-ui-express": "4.1.3",

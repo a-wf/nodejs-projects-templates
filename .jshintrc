@@ -1,0 +1,28 @@
+{
+    "passfail": false,
+    "maxerr": 100,
+    "node": true,
+    "browser": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "latedef": true,
+    "newcap": true,
+    "quotmark": "single",
+    "unused": true,
+    "strict": true,
+    "trailing": true,
+    "smarttabs": false,
+    "evil": false,
+    "undef": true,
+    "predef": [
+        "define",
+        "require",
+        "exports",
+        "module"
+    ],
+    "esversion": 8,
+    "indent": 4,
+    "devel": true,
+    "noempty": true
+}

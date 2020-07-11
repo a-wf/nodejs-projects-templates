@@ -1,0 +1,6 @@
+
+# to ignore when push on remote repository
+
+./node_modules
+
+./package-lock.json

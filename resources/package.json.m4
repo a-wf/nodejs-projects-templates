@@ -6,8 +6,8 @@
     "scripts": {
         "start": "NODE_ENV=production node src/app.js",
         "dev": "nodemon src/app.js",
-        "test": "NODE_ENV=test mocha --exit src/tests/*.js",
-        "test-coverage": "NODE_ENV=test nyc --check-coverage --lines 80  mocha --exit $(find src/tests -name '*.test.js')"
+        "test": "NODE_ENV=test  mocha --exit $(find src/tests -name '*.test.js')",
+        "test-coverage": "NODE_ENV=test nyc --check-coverage --lines 80  $(npm test)"
     },
     "license": "Unlicense",
     "private": true,

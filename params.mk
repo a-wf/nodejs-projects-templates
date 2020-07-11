@@ -6,4 +6,4 @@ SERVICE_PROTOCOL = https
 
 SERVICE_PORT = 8443
 
-CONFIG_FILE = config.json
+CONFIG_FILE = config-env

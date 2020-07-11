@@ -12,6 +12,7 @@
     "license": "Unlicense",
     "private": true,
     "dependencies": {
+        "dotenv": "8.2.0",
         "express": "4.17.1",
         "express-openapi-validator": "3.6.6",
         "express-prom-bundle": "5.1.5",
